@@ -30,7 +30,10 @@
 }
 
 .app__aboutus-content_knife img {
+    width:400px;
     height: 400px;
+    border:2px solid var(--color-white);
+    border-radius: 5px;
 }
 
 .app__aboutus-content_history {
@@ -76,7 +79,7 @@
 
     .app__aboutus-content_knife img {
        
-        margin: 2rem 0rem;
+        margin: 1rem 0rem;
         padding:20px ;
 
     }

@@ -7,7 +7,7 @@ import data from '../../constants/data';
 
 const AwardCard=({award:{imgUrl,title,subtitle}})=>(
   <div className='app__laurels_awards-card'>
-    <img src={images.welcome} alt="award" />
+    <img src={images.award} alt="award" />
     <div className='app__laurels_awards-card_content'>
       <p className='p__cormorant' style={{color:"#DCCA87"}}>
      {title}
@@ -30,7 +30,7 @@ function Laurels() {
          </div>
       </div>
       <div className='app__wrapper_img'>
-           <img src={images.logo} alt="foodimg" />
+           <img src={images.laurels} alt="foodimg" />
       </div>
       {/* 2:13 */}
     </div>

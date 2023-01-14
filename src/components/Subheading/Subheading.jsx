@@ -6,7 +6,7 @@ const Subheading = (props) => {
         <p className='p__cormorant'>
             {props.title}
         </p>
-        <img src={images.logo} alt="spoon" className='spoon__img'></img>
+        <img src={images.spoon} alt="spoon" className='spoon__img'></img>
         
     </div>
   )

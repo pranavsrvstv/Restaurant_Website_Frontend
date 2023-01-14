@@ -9,7 +9,7 @@ const SpecialMenu = () => {
   return (
     <div className='app__specialMenu flex__center section__padding' id='menu'>
         <div className='app__specialMenu-title'>
-            <Subheading title="Menu that fits your table"/>
+            <Subheading title="Explore curated lists of top wines and cocktails based on trends"/>
             <h1 className='headtext__cormorant'>Todays Special</h1>
         </div>
         <div className='app__specialMenu-menu'>

@@ -16,10 +16,12 @@ function Footer() {
                 Contact Us
             </h1>
             <p className='p__opensans'>
-                Dhanrajgiri 2 , IITBHU, 221005
+            570 Hudson Street New York, NY 10014 
+
             </p>
             <p className='p__opensans'>
-                23054704897
+            General Inquiries: info@antonsnyc.com
+
             </p>
             <p className='p__opensans'>
                 34598723435
@@ -27,7 +29,7 @@ function Footer() {
         </div>
 
         <div className='app__footer-links_logo'>
-           <img src={images.welcome} alt="footer_logo" />
+           <img src={images.logo} alt="footer_logo" />
            <p className='p__opensans'>The best way to find yourself is to lose yourself in the service of others</p>
            <img src={images.spoon} alt="spoon" className='spoon__img' style={{marginTop:'15px'}} />
            <div className="app__footer-links_icons">
